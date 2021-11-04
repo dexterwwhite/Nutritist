@@ -6,7 +6,7 @@ app = Flask(__name__)
 ##### Pages #####
 @app.route("/")
 def home():
-    return "Welcome to <h1>Nutritist</h1>"
+    return render_template('index.html') 
    
 @app.route("/<name>")
 def user(name):
@@ -24,7 +24,7 @@ def admin():
 
 @app.errorhandler(404)
 def page_not_found(error):
-    return "Not found 404..."
+    return render_template('404.html')
 
 if __name__ == "__main__":
     app.run(debug=True)
