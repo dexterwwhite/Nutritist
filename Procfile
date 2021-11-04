@@ -1,1 +1,1 @@
-web: gunicorn nutritist:app
+web: gunicorn nutritist:app --preload
