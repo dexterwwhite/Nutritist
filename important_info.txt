@@ -1,0 +1,15 @@
+########## infos ##########
+
+
+
+########## APIs ##########
+
+
+
+######## database ########
+postgres://zunhwbfmndzghr:97e2dd8a68587ef47ecc4ced5b9137bf7ab6daadada6757c028cf96b81c8ac3b@ec2-52-86-123-180.compute-1.amazonaws.com:5432/d2o2cbpkkb06fc
+cmd to database:
+psql postgres://zunhwbfmndzghr:97e2dd8a68587ef47ecc4ced5b9137bf7ab6daadada6757c028cf96b81c8ac3b@ec2-52-86-123-180.compute-1.amazonaws.com:5432/d2o2cbpkkb06fc
+
+### deploy app with Gunicorn ###
+related files: requirements.txt; 
