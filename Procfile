@@ -1,1 +1,1 @@
-web: gunicorn nutritist:app --preload
+web: gunicorn wsgi:app
